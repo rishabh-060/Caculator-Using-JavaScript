@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Using JavaScript</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="calculator">
+            <input readonly id="input-feild" type="text">
+            <input readonly placeholder="result" id="result-feild" type="text">
+
+
+            <div class="button">
+                <div class="left">
+                    <div class="action">   
+                        <button onclick="reset(this)" id="ac">AC</button>
+                        
+                        <button onclick="manageResult()" id="equal">res</button>
+                    </div>
+    
+                    <div class="numbers">
+                        <button onclick="handleClickButton(this)" id="nine">9</button>
+                        <button onclick="handleClickButton(this)" id="eight">8</button>
+                        <button onclick="handleClickButton(this)" id="seven">7</button>
+                        <button onclick="handleClickButton(this)" id="six">6</button>
+                        <button onclick="handleClickButton(this)" id="five">5</button>
+                        <button onclick="handleClickButton(this)" id="four">4</button>
+                        <button onclick="handleClickButton(this)" id="three">3</button>
+                        <button onclick="handleClickButton(this)" id="two">2</button>
+                        <button onclick="handleClickButton(this)" id="one">1</button>
+                    </div>
+    
+                    <div class="foot">
+                        <button onclick="handleClickButton(this)" id="zero">0</button>
+                        <button onclick="handleClickButton(this)" id="dot">.</button>
+                    </div>
+    
+                </div>
+    
+                <div class="right">
+                    <button onclick="handleClickButton(this)" id="mod">%</button>
+                    <button onclick="handleClickButton(this)" id="divide">/</button>
+                    <button onclick="handleClickButton(this)" id="mul">*</button>
+                    <button onclick="handleClickButton(this)" id="sub">-</button>
+                    <button onclick="handleClickButton(this)" id="add">+</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

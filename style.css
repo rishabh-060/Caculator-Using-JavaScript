@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.calculator{
+    background-color: rgba(1, 15, 36, 0.972);
+    color: #d2d4ff;
+    height: 580px;
+    width: 390px;
+    border-radius: 20px;
+    text-align: end;
+    padding: 20px;
+}
+
+#input-feild, #result-feild{
+    width: 100%;
+    height: 73px;
+    border-radius: 12px;
+    color: rgba(1, 15, 36, 0.972);
+    text-align: end;
+    font-size: 48px;
+    font-weight: 600;
+    padding: 0 5px;
+    background-color: rgb(231, 255, 255);
+}
+
+#result-feild{
+    text-align: start;
+    font-weight: 400;
+}
+
+button{
+    height: 65px;
+    width: 65px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: rgb(231, 255, 255);
+}
+
+.button{
+    /* padding: 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+
+.foot #zero{
+    width: 135px;
+}
+
+.right button{
+    background-color: rgb(193, 125, 47);
+    color: #d2d4ff;
+}
+
+.action #equal{
+    background-color: rgb(10, 255, 10);
+    width: 135px;
+}
